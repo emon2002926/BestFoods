@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".A2">
+    <TextView
+        android:id="@+id/A1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-4dp"
+        android:background="#99141414"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="Apples are among the most popular fruits,
+and also happen to be incredibly nutritious.
+They contain a high amount of fiber, vitamin
+C, potassium and vitamin K. They also provide
+ some B vitamins .
+Studies suggest that the antioxidants in apples
+can promote heart health and reduce the risk of
+ type 2 diabetes, cancer and Alzheimer’s .
+The antioxidant activity in apples has also been l
+inked with increased bone density in animal and
+test-tube studies .
+Another notable health benefit of apples is
+their pectin content.
+Pectin is a prebiotic fiber that feeds the good bacteria
+in your gut and helps improve digestion and metabolic health .
+
+Bottom Line: Apples are very nutritious. Their
+nutrients, antioxidants and fiber may reduce the risk
+ of disease and improve digestion.
+"
+        android:padding="10dp"
+        android:textStyle="italic" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".A2">
+    <TextView
+        android:id="@+id/Grapefruit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-4dp"
+        android:background="#99141414"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:text="Grapefruit is one of the healthiest citrus fruits.
+Besides being a good source of vitamins and minerals,
+it is known for its ability to aid weight loss and reduce insulin resistance.
+For example, in a study in 91 people,
+those who ate half a fresh grapefruit before meals lost 2.9 pounds
+ (1.3 kg) more weight than those who didn’t .
+In the same study, the grapefruit group had a significant reduction
+in insulin levels and reduced insulin resistance .
+Also, eating grapefruit has been shown to reduce cholesterol
+levels and help prevent kidney stones .
+#Grapefruit is highly nutritious. Eating it may reduce insulin resistance,
+cholesterol and help prevent kidney stones. Grapefruit may also be useful for weight loss."
+        android:padding="10dp"
+        android:textStyle="normal" />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".MainActivity2">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Fimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grains have gotten a bad rap in recent years, mainly due to them being a forbidden food on the wildly popular paleo diet.
+
+However, it is a mistake to lump all grains together. There are many different types of grains, and some of them are very healthy.
+
+Just keep in mind that they are still pretty high in carbs, so they are not recommended on a low carb diet."
+            android:textStyle="italic"
+            android:textSize="25sp"
+            />
+
+
+        <Button
+            android:id="@+id/Brown_Rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Fimage"
+            android:text=" Brown Rice" />
+
+        <Button
+            android:id="@+id/Oats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Brown_Rice"
+            android:text="Oats" />
+
+
+        <Button
+            android:id="@+id/Quinoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Oats"
+            android:text="Quinoa" />
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

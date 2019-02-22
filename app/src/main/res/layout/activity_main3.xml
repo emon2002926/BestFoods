@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Cimage"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:background="@drawable/meats"
+            android:scaleType="centerCrop"
+
+            />
+
+        <TextView
+            android:id="@+id/LeanBeef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Cimage"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Lean Beef"
+            android:textColor="#fff"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/Chicken_Breasts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeanBeef"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textColor="#fff"
+            android:text="Chicken Breasts" />
+
+
+        <TextView
+            android:id="@+id/Lamb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Chicken_Breasts"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textColor="#fff"
+            android:text="Turkey" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

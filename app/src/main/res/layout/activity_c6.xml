@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".C1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:background="#99141414"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:text="Peanuts (technically legumes, not nuts) are
+ incredibly tasty and high in nutrients and
+antioxidants. Several studies show that
+ peanuts can help you lose weight .
+However, take it easy on the peanut butter.
+ It is very high in calories and incredibly
+easy to eat excessive amounts of it
+"
+
+
+
+        />
+</RelativeLayout>

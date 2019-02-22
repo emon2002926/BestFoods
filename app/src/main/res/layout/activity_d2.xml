@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chiken"
+            android:scaleType="centerCrop"
+            />
+
+
+
+        <TextView
+            android:layout_below="@+id/ima"
+            android:layout_marginTop="12dp"
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:background="@drawable/for_text"
+            android:textStyle="italic"
+            android:text="#1  Chicken breast is low in fat and calories, but extremely high in protein. It is a great source of many nutrients. Again, feel free to eat fattier cuts of chicken if you're not eating that many carbs."
+            />
+
+        <TextView
+            android:layout_below="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="italic"
+            android:background="@drawable/for_text"
+            android:text="#2    The fresh chicken breast is the healthiest part out of all the chicken. The white meat chicken breast has slightly less cholesterol than the dark meat (legs and wings) It is lower in saturated fats. Poultry is a heart-healthy protein."
+            />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

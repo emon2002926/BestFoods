@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/baground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FatsandOils"
+            android:text="The war on fat is lost, and many fats and oils have been making a comeback as health foods."
+
+
+            />
+
+        <Button
+            android:id="@+id/ButterFromGrassFedCows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FatsandOils"
+            android:text="Butter FromGrass FedCows" />
+
+        <Button
+            android:id="@+id/CoconutOil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ButterFromGrassFedCows"
+            android:text="Coconut Oil" />
+
+
+        <Button
+            android:id="@+id/ExtraVirginOliveOil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CoconutOil"
+            android:text="Extra Virgin Olive Oil" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

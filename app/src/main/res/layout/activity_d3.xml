@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D3">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/oo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/turkey"
+            />
+
+        <TextView
+            android:id="@+id/fir"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/oo"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Turkey is a very rich source of protein, niacin, vitamin B6 and the amino acid tryptothan. Apart from these nutrients, it is also contains zinc and vitamin B12. The skinless white meat of turkey is low on fat and is an excellent source of high protein."
+            android:textStyle="italic"
+            android:background="@drawable/for_text"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/ttt"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/fir"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content"
+            android:text="Turkey is a very rich source of protein, niacin, vitamin B6 and the amino acid tryptothan. Apart from these nutrients, it is also contains zinc and vitamin B12. The skinless white meat of turkey is low on fat and is an excellent source of high protein."
+            android:textStyle="italic"
+            android:background="@drawable/for_text"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/ff"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/ttt"
+            android:layout_marginTop="12dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Light, skinless roasted turkey is low on saturated fat and total fat. It also contains less cholesterol than chicken, pork or beef."
+            android:background="@drawable/for_text"
+            android:textSize="22sp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

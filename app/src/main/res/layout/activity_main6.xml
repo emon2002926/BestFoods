@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Eimage"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:scaleType="centerCrop"
+
+            />
+
+        <Button
+            android:id="@+id/Bell_Peppers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Eimage"
+            android:text="Bell Peppers" />
+
+        <Button
+            android:id="@+id/Broccoli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Bell_Peppers"
+            android:text="Broccoli" />
+
+
+        <Button
+            android:id="@+id/Carrots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Broccoli"
+            android:text="Carrots" />
+
+
+        <Button
+            android:id="@+id/Cauliflower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Carrots"
+            android:text="Cauliflower" />
+
+
+        <Button
+            android:id="@+id/Cucumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cauliflower"
+            android:text="Cucumber" />
+
+
+        <Button
+            android:id="@+id/Kale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cucumber"
+            android:text="Kale" />
+        <Button
+            android:id="@+id/Tomatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Kale"
+            android:text="Tomatos" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

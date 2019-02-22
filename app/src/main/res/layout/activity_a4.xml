@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context=".A2">
+    <TextView
+        android:id="@+id/A1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-4dp"
+        android:background="#99141414"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:text="Blueberries have powerful health benefits.
+They have an impressive nutrition profile, being particularly
+high in fiber, vitamin C, vitamin K and manganese .
+Blueberries are also exceptionally high in antioxidants.
+In fact, they are believed to contain the highest antioxidant
+ content of the most commonly consumed fruits .
+The antioxidants in blueberries may reduce the risk
+ of chronic conditions, such as heart disease,
+diabetes and Alzheimer’s .
+Blueberries are also known for their powerful effects
+on the immune system.
+One study found that eating blueberries regularly may
+increase natural killer cells in the body. These help defend
+you against oxidative stress and viral infections .
+Additionally, the antioxidants in blueberries may have
+a protective effect on your brain. For example, eating
+blueberries has been shown to improve memory in
+ older adults .
+
+
+Bottom Line: Blueberries are rich in a few important nutrients.
+They have a high antioxidant capacity and immune-enhancing
+ properties, which may protect the body from illness.
+"
+        android:padding="10dp"
+        android:textStyle="italic" />
+</RelativeLayout>

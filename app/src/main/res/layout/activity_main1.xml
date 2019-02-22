@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:background="@drawable/for_text"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fruts" />
+
+        <TextView
+            android:id="@+id/boo"
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/very"
+            android:text="Eating fruit on a regular basis can boost health.
+However, not all fruits are created equal. Some of them provide unique health benefits"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/a1but1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/boo"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Pineapple"
+            android:textSize="40px"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/a1but2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1but1"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Grapefruit"
+            android:textSize="40px" />
+
+
+        <TextView
+            android:id="@+id/a1but3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1but2"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Avocado"
+            android:textSize="40px" />
+
+
+        <TextView
+            android:id="@+id/a1but4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a1but3"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Blueberries"
+            android:textSize="40px" />
+
+
+        <TextView
+            android:id="@+id/a1but5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a1but4"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Apples"
+            android:textSize="40px" />
+
+
+        <TextView
+            android:id="@+id/a1but6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a1but5"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:text="Mango"
+            android:textSize="40px" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
