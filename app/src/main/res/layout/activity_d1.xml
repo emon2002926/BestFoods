@@ -9,25 +9,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iii"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leanbeef"
+            />
 
 
         <TextView
             android:id="@+id/first"
+
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/thirdt"
-            android:textSize="25sp"
+            android:textSize="23sp"
+            android:background="@drawable/for_text"
             android:textColor="#fff"
-            android:background="@drawable/very"
             android:text="Lean means that 100 grams of beef (about 3 1/2 ounces) have less than 10 grams of fat, 4.5 grams or less of saturated fat, and less than 95 milligrams of cholesterol. Extra Lean means that 100 grams of beef with less than 5 grams of fat, less than 2 grams of saturated fat, and less than 95 milligrams of cholesterol."
             />
         <TextView
             android:id="@+id/sceond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:background="@drawable/very"
+            android:textSize="23sp"
+            android:background="@drawable/for_text"
             android:layout_below="@+id/first"
             android:textColor="#fff"
             android:layout_marginTop="8dp"
@@ -40,12 +48,13 @@ with highly bioavailable iron. Choosing
         <TextView
             android:id="@+id/thirdt"
             android:layout_width="wrap_content"
+            android:layout_below="@id/iii"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:textSize="25sp"
+            android:textSize="23sp"
             android:layout_marginTop="8dp"
             android:text="Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients"
-            android:background="@drawable/very"
+            android:background="@drawable/for_text"
 
             />
     </RelativeLayout>

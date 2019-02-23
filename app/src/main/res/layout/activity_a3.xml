@@ -1,35 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baground"
     tools:context=".A2">
-    <TextView
-        android:id="@+id/A1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="-4dp"
-        android:background="#99141414"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:text="Avocado is different from most other fruits.
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avocado"/>
+
+        <TextView
+            android:id="@+id/A1"
+            android:layout_below="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/for_text"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="Avocado is different from most other fruits.
 Most fruits are high in carbs,
 while avocado is low in carbs and comprised
-mainly of healthy fats.
-The majority of the fat in avocado is oleic acid,
- a monounsaturated fat linked to reduced inflammation
-and better heart health .
-In addition to healthy fats, avocados are loaded with
-potassium, fiber and magnesium .
-One whole avocado provides 28% of the RDI for potassium.
-Adequate potassium intake is associated with reduced
-blood pressure and a lower risk of stroke .
+mainly of healthy fats."
+            android:padding="10dp"
+            android:textStyle="italic" />
 
-Bottom Line: Avocados are rich in healthy
-fats and potassium, both of which are well known
- for their role in promoting heart health."
-        android:padding="10dp"
-        android:textStyle="italic" />
-</RelativeLayout>
+        <TextView
+            android:id="@+id/b1"
+            android:layout_below="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/for_text"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="    The majority of the fat in avocado is oleic acid,
+    a monounsaturated fat linked to reduced inflammation
+    and better heart health .
+    In addition to healthy fats, avocados are loaded with
+    potassium, fiber and magnesium .
+    One whole avocado provides 28% of the RDI for potassium.
+    Adequate potassium intake is associated with reduced
+    blood pressure and a lower risk of stroke ."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/C1"
+            android:layout_below="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/for_text"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="Bottom Line: Avocados are rich in healthy
+    fats and potassium, both of which are well known
+    for their role in promoting heart health"
+            android:padding="10dp"
+            android:textStyle="italic" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+

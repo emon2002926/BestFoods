@@ -1,25 +1,42 @@
-<RelativeLayout
+<ScrollView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/baground"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
+
+        <ImageView
+            android:id="@+id/Iimage"
+            android:src="@drawable/pinapale"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/A1"
+            android:layout_below="@+id/Iimage"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="-4dp"
-            android:background="#99141414"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/for_text"
             android:text="@string/pineapple_is_rich_in_vitamin_c_and_manganese_its_bromelain_content_may_fight_inflammation_and_reduce_the_risk_of_cancer_among_the_tropical_fruits_pineapple_is_a_nutrition_superstar_one_cup_237_ml_of_pineapple_provides_131_of_the_reference_daily_intake_rdi_for_vitamin_c_and_76_of_the_rdi_for_manganese_5_pineapple_also_contains_bromelain_a_mixture_of_enzymes_known_for_its_anti_inflammatory_properties_and_ability_to_digest_protein_6_test_tube_and_animal_studies_suggest_that_bromelain_may_help_protect_against_cancer_and_tumor_growth_7_8"
             android:textColor="#fff"
             android:textSize="20dp"
             android:scrollbars="vertical"
             android:padding="10dp"
             android:textStyle="italic" />
+
+
+
     </RelativeLayout>
+
+
+
+    </ScrollView>
 
 
 
