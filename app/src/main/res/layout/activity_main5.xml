@@ -16,6 +16,8 @@
 
 
         <ImageView
+            android:id="@+id/g"
+            android:scaleType="centerCrop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -23,6 +25,8 @@
             android:layout_width="wrap_content"
             android:textSize="25sp"
             android:textStyle="italic"
+            android:background="@drawable/for_text"
+            android:layout_below="@+id/g"
             android:text="Eggs are among the most nutritious foods on the planet.
 
 They were previously demonized for being high in cholesterol, but new studies have shown that they are perfectly safe and healthy (1, 2)."

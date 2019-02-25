@@ -61,24 +61,14 @@
             android:text="Chia Seeds" />
 
 
-        <TextView
-            android:id="@+id/B1but3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/B1but2"
-            android:layout_marginBottom="8dp"
-            android:textSize="40px"
-            android:gravity="center"
-            android:background="@drawable/very"
-            android:onClick="C3"
-            android:text="Coconuts" />
+
 
 
         <TextView
             android:id="@+id/B1but4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/B1but3"
+            android:layout_below="@+id/B1but2"
             android:layout_marginBottom="8dp"
             android:textSize="40px"
             android:gravity="center"
@@ -87,24 +77,14 @@
             android:text="Macadamia Nuts" />
 
 
-        <TextView
-            android:id="@+id/B1but5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/B1but4"
-            android:layout_marginBottom="8dp"
-            android:textSize="40px"
-            android:gravity="center"
-            android:background="@drawable/very"
-            android:onClick="C5"
-            android:text="Walnuts" />
+
 
 
         <TextView
             android:id="@+id/B1but6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/B1but5"
+            android:layout_below="@id/B1but4"
             android:layout_marginBottom="8dp"
             android:textSize="40px"
             android:gravity="center"

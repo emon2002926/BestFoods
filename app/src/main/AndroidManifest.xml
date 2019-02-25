@@ -27,8 +27,6 @@
         <activity android:name=".E5" />
         <activity android:name=".E4" />
         <activity android:name=".E3" />
-        <activity android:name=".E2" />
-        <activity android:name=".E1" />
         <activity android:name=".D6" />
         <activity android:name=".D5" />
         <activity android:name=".D4" />

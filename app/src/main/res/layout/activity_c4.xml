@@ -1,29 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baground"
     tools:context=".C1">
-
-
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-4dp"
-        android:background="#99141414"
-        android:scrollbars="vertical"
-        android:padding="10dp"
-        android:textSize="25sp"
-        android:text="Macadamia nuts are very tasty.
-They are much higher in monounsaturated fats,
-and lower in Omega-6 fatty acids,
-than most other nuts."
-
-        android:textStyle="italic"
+        android:layout_height="wrap_content">
 
 
-        />
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/la"
+            android:src="@drawable/macadamia"
+            android:scaleType="centerCrop"
+
+            />
+        <TextView
+            android:id="@+id/hh"
+            android:layout_below="@+id/la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="Macadamia nuts are high in healthy fats and may help those trying to lose weight. One serving of macadamia nuts also contains dietary fiber, protein, manganese, thiamin, and a good amount of copper"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/kk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/hh"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="Macadamia nuts contain just over 1 g of natural sugar, and they are a low glycemic index food. With their many health benefits, macadamia nuts can fit into any healthful diet."
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="1. They lower heart disease risk"
+            android:layout_below="@id/kk"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="2. They improve metabolic syndrome and diabetes"
+            android:layout_below="@id/kk0"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk1"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="3. They may prevent cancer"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk2"
+            android:text="4. They protect the brain"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk4"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="5. They may prevent weight gain"
+            android:layout_below="@id/kk3"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+
+            android:textStyle="italic"
+            />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

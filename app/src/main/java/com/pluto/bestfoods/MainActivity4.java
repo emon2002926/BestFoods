@@ -7,10 +7,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity4 extends AppCompatActivity {
-    Button button1,button2,button3,button4,button5,button6;
 
+    TextView textView1,textView2,textView3,textView4;
 
     @Override
 
@@ -61,9 +62,9 @@ public class MainActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
 
 
-        button1 = (Button) findViewById(R.id.Salmon);
+        textView1 = (TextView) findViewById(R.id.Salmon);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -75,9 +76,9 @@ public class MainActivity4 extends AppCompatActivity {
             }
         });
 
-        button2 = (Button) findViewById(R.id.Sardines);
+        textView2 = (TextView) findViewById(R.id.Sardines);
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -88,9 +89,9 @@ public class MainActivity4 extends AppCompatActivity {
             }
         });
 
-        button3 = (Button) findViewById(R.id.Shellfish);
+        textView3 = (TextView) findViewById(R.id.Shellfish);
 
-        button3.setOnClickListener(new View.OnClickListener() {
+        textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity4
@@ -101,37 +102,9 @@ public class MainActivity4 extends AppCompatActivity {
             }
         });
 
-        button4 = (Button) findViewById(R.id.Shrimp);
+        textView4 = (TextView) findViewById(R.id.Tuna);
 
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity4
-
-                        .this,E1.class);
-
-                startActivity(intent);
-            }
-        });
-
-        button5 = (Button) findViewById(R.id.Trout);
-
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity4
-
-                        .this,E2.class);
-
-                startActivity(intent);
-            }
-        });
-
-
-        button6 = (Button) findViewById(R.id.Tuna);
-
-        button6.setOnClickListener(new View.OnClickListener() {
+        textView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

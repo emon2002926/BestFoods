@@ -8,7 +8,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-
         <ImageView
             android:id="@+id/Iimage"
             android:src="@drawable/pinapale"
@@ -16,21 +15,58 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+
         <TextView
             android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#fff"
             android:layout_below="@+id/Iimage"
+            android:background="@drawable/for_text"
+            android:textSize="70px"
+            android:text="Pineapples are tropical fruit that are rich in vitamins, enzymes and antioxidents. They may help boost the immune system, build strong bones and aid indigestion. Also, despite their sweetness, pineapples are low in calories."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A2"
+            android:layout_below="@+id/A1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/for_text"
-            android:text="@string/pineapple_is_rich_in_vitamin_c_and_manganese_its_bromelain_content_may_fight_inflammation_and_reduce_the_risk_of_cancer_among_the_tropical_fruits_pineapple_is_a_nutrition_superstar_one_cup_237_ml_of_pineapple_provides_131_of_the_reference_daily_intake_rdi_for_vitamin_c_and_76_of_the_rdi_for_manganese_5_pineapple_also_contains_bromelain_a_mixture_of_enzymes_known_for_its_anti_inflammatory_properties_and_ability_to_digest_protein_6_test_tube_and_animal_studies_suggest_that_bromelain_may_help_protect_against_cancer_and_tumor_growth_7_8"
             android:textColor="#fff"
-            android:textSize="20dp"
-            android:scrollbars="vertical"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="Pineapples’ nutritional benefits are as fascinating as their anatomy. “Pineapples contain high amounts of vitamin C and manganese,” said San Diego-based nutritionist Laura Flores. These tropical treats are also a good way to get important dietary fiber and bromelain (an enzyme)."
             android:padding="10dp"
             android:textStyle="italic" />
-
-
+        <TextView
+            android:id="@+id/A3"
+            android:layout_below="@id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="In animal studies, the plant compounds in
+    mangoes have been shown to protect against diabetes."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/A3"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="Serving size: 1 cup chunks (165 g)
+Amount per Serving (%DV*)
+*Percent Daily Values (%DV) are based on a 2,000 calorie diet."
+            android:padding="10dp"
+            android:textStyle="italic" />
 
     </RelativeLayout>
 

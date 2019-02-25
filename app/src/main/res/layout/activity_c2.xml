@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baground"
     tools:context=".C1">
 
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-4dp"
-        android:background="#99141414"
-        android:scrollbars="vertical"
-        android:padding="10dp"
-        android:textSize="25sp"
-        android:text="Chia seeds are among the most nutrient
-dense foods on the planet. A single ounce (28 grams)
-contains 11 grams of fiber, and a large part of the
-recommended intake for magnesium, manganese,
- calcium and various other nutrients."
-        android:textStyle="italic"
+        android:layout_height="wrap_content">
 
 
-        />
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/la"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wall"
+            />
+        <TextView
+            android:id="@+id/hh"
+            android:layout_below="@+id/la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="Walnuts have higher antioxidant activity than any other common nut (1, 2).
+
+This activity comes from vitamin E, melatonin and plant compounds called polyphenols, which are particularly high in the papery skin of walnuts (2, 3, 4).
+
+A preliminary, small study in healthy adults showed that eating a walnut-rich meal prevented oxidative damage of “bad” LDL cholesterol after eating, whereas a refined-fat meal didn’t (3)."
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/kk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/hh"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="Walnuts are significantly higher in omega-3 fat than any other nut, providing 2.5 grams per 1-ounce (28-gram) serving (6, 7)."
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk0"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="Walnuts are an exceptionally nutritious nut. They have higher antioxidant activity and significantly more healthy omega-3 fats than any other common nut."
+            android:textStyle="italic"
+
+
+            />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

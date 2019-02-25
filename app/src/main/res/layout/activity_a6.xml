@@ -1,32 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baground"
     tools:context=".A2">
-    <TextView
-        android:id="@+id/A1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="-4dp"
-        android:background="#99141414"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:text="Mangoes are an excellent source of vitamin C.
-They also contain soluble fiber, which can
-provide many health benefits.
-Additionally, mangoes have strong antioxidant
-and anti-inflammatory properties that may
-help reduce the risk of disease .
-In animal studies, the plant compounds in
-mangoes have been shown to protect against diabetes.
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-Bottom Line: Mangoes contain vitamin C and soluble
-fiber. They also contain plant compounds with antioxidant
-and anti-inflammatory effects.
-"
-        android:padding="10dp"
-        android:textStyle="italic" />
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/g"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mango"
+            />
+        <TextView
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/g"
+            android:background="@drawable/for_text"
+            android:textSize="23dp"
+            android:text="Mangoes are an excellent source of vitamin C.
+    They also contain soluble fiber, which can
+    provide many health benefits."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A2"
+            android:layout_below="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="23dp"
+            android:text="Additionally, mangoes have strong antioxidant
+    and anti-inflammatory properties that may
+    help reduce the risk of disease ."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A3"
+            android:layout_below="@id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="23dp"
+            android:text="In animal studies, the plant compounds in mangoes have been shown to protect against diabetes."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/A3"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="23dp"
+            android:text="Bottom Line: Mangoes contain vitamin C and soluble
+    fiber. They also contain plant compounds with antioxidant
+    and anti-inflammatory effects"
+            android:padding="10dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+

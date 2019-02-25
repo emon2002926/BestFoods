@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:background="@drawable/baground"
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,12 +8,46 @@
     tools:context=".D3">
 
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tuna is very popular in Western countries, and tends to be low in fat and calories, but high in protein. It is perfect people who need to add more protein to their diets, while keeping calories low."
-        android:textStyle="italic"
-        android:textSize="25sp"
-        />
+        android:layout_height="wrap_content">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tuna"
+            />
+
+        <TextView
+            android:id="@+id/dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Tuna is very popular in Western countries, and tends to be low in fat and calories,"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:layout_below="@+id/g"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:layout_below="@+id/dd"
+            android:text="But high in protein. It is perfect people who need to add more protein to their diets, while keeping calories low"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+

@@ -86,12 +86,8 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(intent);
         }
 
-    public void C3(View view) {
-        Intent intent = new Intent(MainActivity2
-                .this,C3.class);
 
-        startActivity(intent);
-    }
+
 
     public void C4(View view) {
         Intent intent = new Intent(MainActivity2
@@ -100,13 +96,6 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void C5(View view) {
-
-        Intent intent = new Intent(MainActivity2
-                .this,C5.class);
-
-        startActivity(intent);
-    }
 
     public void C6(View view) {
         Intent intent = new Intent(MainActivity2

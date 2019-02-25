@@ -1,43 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baground"
     tools:context=".A2">
-    <TextView
-        android:id="@+id/A1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="-4dp"
-        android:background="#99141414"
-        android:textColor="#fff"
-        android:textSize="25dp"
-        android:text="Blueberries have powerful health benefits.
-They have an impressive nutrition profile, being particularly
-high in fiber, vitamin C, vitamin K and manganese .
-Blueberries are also exceptionally high in antioxidants.
-In fact, they are believed to contain the highest antioxidant
- content of the most commonly consumed fruits .
-The antioxidants in blueberries may reduce the risk
- of chronic conditions, such as heart disease,
-diabetes and Alzheimer’s .
-Blueberries are also known for their powerful effects
-on the immune system.
-One study found that eating blueberries regularly may
-increase natural killer cells in the body. These help defend
-you against oxidative stress and viral infections .
-Additionally, the antioxidants in blueberries may have
-a protective effect on your brain. For example, eating
-blueberries has been shown to improve memory in
- older adults .
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
 
-Bottom Line: Blueberries are rich in a few important nutrients.
-They have a high antioxidant capacity and immune-enhancing
- properties, which may protect the body from illness.
+
+        <ImageView
+            android:id="@+id/fg"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blueberry"/>
+        <TextView
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fg"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="Blueberries have powerful health benefits.They have an impressive nutrition profile, being particularlyhigh in fiber, vitamin C, vitamin K and manganese ."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/A1"
+            android:background="@drawable/for_text"
+            android:textSize="25dp"
+            android:text="Blueberries are also exceptionally high in antioxidants.In fact, they are believed to contain the highest antioxidantcontent of the most commonly consumed fruits .
 "
-        android:padding="10dp"
-        android:textStyle="italic" />
-</RelativeLayout>
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_below="@id/A2"
+            android:background="@drawable/for_text"
+            android:text="The antioxidants in blueberries may reduce the riskof chronic conditions, such as heart disease,diabetes and Alzheimer’s .Blueberries are also known for their powerful effects
+    on the immune system."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="One study found that eating blueberries regularly mayincrease natural killer cells in the body. These help defend
+    you against oxidative stress and viral infections ."
+            android:layout_below="@id/A3"
+            android:background="@drawable/for_text"
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_below="@id/A4"
+            android:background="@drawable/for_text"
+            android:text="Additionally, the antioxidants in blueberries may have a protective effect on your brain. For example, eatingblueberries has been shown to improve memory in
+    older adults ."
+            android:padding="10dp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/A"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_below="@id/A5"
+            android:background="@drawable/for_text"
+            android:text="    Bottom Line: Blueberries are rich in a few important nutrients.They have a high antioxidant capacity and immune-enhancingproperties, which may protect the body from illness."
+            android:padding="10dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

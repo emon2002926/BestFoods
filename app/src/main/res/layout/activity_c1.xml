@@ -1,31 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/baground"
     android:layout_height="match_parent"
     tools:context=".C1">
 
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginTop="-4dp"
-        android:textColor="#fff"
-        android:background="#99141414"
-        android:scrollbars="vertical"
-        android:padding="10dp"
-        android:textSize="25sp"
-        android:text="The almond is a popular type of nut.
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/la"
+            android:scaleType="centerCrop"
+            android:src="@drawable/almond"/>
+        <TextView
+            android:id="@+id/hh"
+            android:layout_below="@+id/la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="The almond is a popular type of nut.
 It is loaded with vitamin E, antioxidants,
 magnesium and fiber. Studies show that
 almonds can help you lose weight, and
  provide impressive benefits for metabolic health ."
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/kk"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/hh"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#1 Fiber: 3.5 grams"
+            android:textStyle="italic"
 
-        android:textStyle="italic"
+
+            />
+        <TextView
+            android:id="@+id/kk0"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/hh"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#1 Fiber: 3.5 grams"
+            android:textStyle="italic"
 
 
-        />
-</RelativeLayout>
+            />
+        <TextView
+            android:id="@+id/kk1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk0"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#2 Protein: 6 grams"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk1"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#3 Fat: 14 grams (9 of which are monounsaturated)"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk2"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#4 Vitamin E: 37% of the RDI"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk4"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk3"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text=" #5Manganese: 32% of the RDI"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:id="@+id/kk5"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk4"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="#6 Magnesium: 20% of the RDI"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/kk6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk5"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="They also contain a decent amount of copper, vitamin B2 (riboflavin) and phosphorus."
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/kk7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:layout_below="@id/kk6"
+            android:background="@drawable/for_text"
+            android:scrollbars="vertical"
+            android:textSize="40px"
+            android:text="This is all from a small handful, which supplies only 161 calories and 2.5 grams of digestible carbohydrates."
+            android:textStyle="italic"
+            />
+    </RelativeLayout>
+
+</ScrollView>
