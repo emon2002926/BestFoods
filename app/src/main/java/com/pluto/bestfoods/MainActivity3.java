@@ -10,13 +10,173 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class MainActivity3 extends AppCompatActivity {
 
 
 
     TextView textView1,textView2,textView3;
+    InterstitialAd mInterstitialAd;
 
 
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main3);
+
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+
+
+
+        textView1 = (TextView) findViewById(R.id.LeanBeef);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (mInterstitialAd.isLoaded())
+                {
+
+                    mInterstitialAd.show();
+
+
+                }else
+                {
+
+                    Intent intent = new Intent(MainActivity3.this,MainActivity1.class);
+                    startActivity(intent);
+
+                }
+
+                mInterstitialAd.setAdListener(new AdListener(){
+
+
+                    @Override
+                    public void onAdLoaded() {
+
+                        super.onAdLoaded();
+
+
+                        mInterstitialAd.show();
+
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(int i) {
+
+                        super.onAdFailedToLoad(i);
+
+
+                        Intent intent  = new Intent(MainActivity3.this,MainActivity1.class);
+                        startActivity(intent);
+
+                    }
+
+                    @Override
+                    public void onAdClosed() {
+
+                        super.onAdClosed();
+
+
+                        Intent intent = new Intent(MainActivity3.this,MainActivity1.class);
+                        startActivity(intent);
+
+                    }
+                });
+
+            }
+
+        });
+
+        textView2 = (TextView) findViewById(R.id.Chicken_Breasts);
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (mInterstitialAd.isLoaded())
+                {
+
+                    mInterstitialAd.show();
+
+
+                }else
+                {
+
+                    Intent intent = new Intent(MainActivity3.this,MainActivity1.class);
+                    startActivity(intent);
+
+                }
+
+                mInterstitialAd.setAdListener(new AdListener(){
+
+
+                    @Override
+                    public void onAdLoaded() {
+
+                        super.onAdLoaded();
+
+
+                        mInterstitialAd.show();
+
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(int i) {
+
+                        super.onAdFailedToLoad(i);
+
+
+                        Intent intent  = new Intent(MainActivity3.this,MainActivity1.class);
+                        startActivity(intent);
+
+                    }
+
+                    @Override
+                    public void onAdClosed() {
+
+                        super.onAdClosed();
+
+
+                        Intent intent = new Intent(MainActivity3.this,MainActivity1.class);
+                        startActivity(intent);
+
+                    }
+                });
+
+            }
+
+        });
+
+        textView3= (TextView) findViewById(R.id.Lamb);
+
+        textView3.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity3
+
+                        .this,D3.class);
+
+                startActivity(intent);
+            }
+        });
+
+    }
+
+
+
+    //////////////////////for share system///////////////////////////////
     @Override
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -57,61 +217,5 @@ public class MainActivity3 extends AppCompatActivity {
 
     }
 
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
-
-        textView1 = (TextView) findViewById(R.id.LeanBeef);
-        textView1.setOnClickListener(new View.OnClickListener() {
-
-
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity3
-
-                        .this,D1.class);
-
-                startActivity(intent);
-            }
-        }
-        );
-
-        textView2 = (TextView) findViewById(R.id.Chicken_Breasts);
-        textView2.setOnClickListener(new View.OnClickListener() {
-
-
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity3
-
-                        .this,D2.class);
-
-                startActivity(intent);
-
-            }
-        });
-
-        textView3= (TextView) findViewById(R.id.Lamb);
-
-        textView3.setOnClickListener(new View.OnClickListener() {
-
-
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity3
-
-                        .this,D3.class);
-
-                startActivity(intent);
-            }
-        });
-
-    }
 
 }
